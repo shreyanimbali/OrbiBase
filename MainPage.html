@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="MainPage.css"/>
+    <!-- <script src="OrbiBase.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#cubicles">Cubicles</a></li>
+                <li><a href="#enquire">Enquire</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+          <img id="ast2" src="images/ast/ast4.png">
+          <button class="custom-btn btn-1" style="background-color:blueviolet" onclick="window.location.href='#enquire'">Book Now</button>
+        </section>
+        <section id="about">
+          <img id="ast3" src="images/ast/ast3.png">
+          <img id="ast1" src="images/ast/ast1.png">
+        </section>
+        <section id="features">
+            <section class="hero-section">
+              <h1 id="keyfeatures">Key Features</h1>
+              <div class="card-grid">
+                <a class="card" href="#">
+                  <div class="card__background" style="background-image: url(images/Number\ One.jpg)"></div>
+                  <div class="card__content">
+                    <p class ="card__category">Number 1</p><br/>
+                    <h3 class="card__heading">Pseudo-gravity & Shielding</h3><br/>
+                    <p class="card__category">The continual rotation of OrbiBase creates Earth-like physical conditions . The entire exterior has a layer of Whipple shielding for protection against MMODs</p>
+                  </div>
+                </a>
+                <a class="card" href="#">
+                  <div class="card__background" style="background-image: url(images/Number\ Two.jpg)"></div>
+                  <div class="card__content">
+                    <p class ="card__category">Number 2</p><br/>
+                    <h3 class="card__heading">Energy Sourcing</h3><br/>
+                    <p class="card__category">Abundant energy available around OrbiBase in the form of solar energy and minerals sourced from asteroid and lunar surfaces</p>
+                  </div>
+                </a>
+                <a class="card" href="#">
+                  <div class="card__background" style="background-image: url(images/Number\ Three.jpg)"></div>
+                  <div class="card__content">
+                    <p class ="card__category">Number 3</p><br/>
+                    <h3 class="card__heading">Innovative recreational centres</h3><br/>
+                    <p class="card__category">Zero-gravity at the centre of OrbiBase hosts multiple weightlessness centres that enhance activities such as acrobatics, sports and dance. </p>
+                  </div>
+                </a>
+                <a class="card" href="#">
+                  <div class="card__background" style="background-image: url(images/Number\ Four.jpg)"></div>
+                  <div class="card__content">
+                    <p class ="card__category">Number 4</p><br/>
+                    <h3 class="card__heading" >Artificial Intelligence & IoT</h3><br/>
+                    <p class="card__category">A technologically-advanced environment that supports self-driving cars, drone deliveries and robotic companions</p>
+                  </div>
+                </a> 
+
+              <div>
+            </section>
+        </section>
+        <section id="cubicles">
+          <h1 id="cubicle-models">Cubicle Models</h1>
+          <div class="holder">
+            <div class="places">
+                <div class="face face1" style="background-image: url(images/Room\ One.jpg) ;  margin-left: 9px;">
+                    <div class="content">
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large;">BiCube</h2>
+                        <h4 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">Dual-bedded space</h4>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <br/>
+                        <p> ➣ Bioelectric signals based biometric system</p>
+                        <p> ➣ Health and clothing virtual clones</p>
+                        <p> ➣ AI-powered appliances and surfaces</p>
+                        
+                    </div>
+                    <button class="custom-btn btn-2" onclick="ChangeFunc('BiCube')">Book This</button>
+                </div>
+            </div>
+            <div class="places">
+                <div class="face face1" style="background-image:url(images/Room\ 2.jpg);  margin-left: 9px;">
+                    <div class="content">
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large;">UniCube</h2>
+                        <h4 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">Single-bedded space</h4>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                      <br/>
+                      <p> ➣ Rollable Television and AR-enabled walls</p>
+                      <p> ➣ Body scanning mirrors for disease detection</p>
+                      <p> ➣ Autonomous indoor plant growing system</p>
+                    </div>
+                    <button class="custom-btn btn-2" onclick="ChangeFunc('UniCube')">Book This</button>
+                </div>
+            </div>
+            <div class="places">
+                <div class="face face1" style="background-image:url(images/Commercial\ Room.png);  margin-left: 9px;">
+                    <div class="content">
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:xx-large;" >ComiCube</h2>
+                        <h4 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size:large;">Commercial Space</h4>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                      <br/>
+                      <p> ➣ Brain-controlled robotic arm</p>
+                      <p> ➣ 3-D printers and robotic companions</p>
+                      <p> ➣ Holographic screens and surfaces</p>
+                    </div>
+                      <button class="custom-btn btn-2" onclick="ChangeFunc('ComiCube')">Book This</button>
+                    
+                </div>
+            </div>
+          </div>
+        </section> 
+        <section id="enquire">
+          <img id="ast4" src="images/ast/ast4.png">
+          <div class="login-box">
+            <h2>Enquiry Form</h2>
+            <form  method="post" action="Thank You.html">
+              <div class="user-box">
+                <input type="name" required="">
+                <label>Full Name</label>
+              </div>
+              <div class="user-box">
+                <input type="email" required="">
+                <label>Email</label>
+              </div>
+              <div class="user-box">
+                <input type="place" required="">
+                <label>City</label>
+              </div>
+              <div class="user-box">
+                <input type="place" required="">
+                <label>Country</label>
+              </div>
+              <div class="user-box">
+                <input type="phone" required="">
+                <label>Phone Number</label>
+              </div>
+              <div class="user-box">
+                <input type="text" required="" id="CubiSelect"/>
+                <label>Cubicle Name</label>
+              </div>
+              
+              <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <button type="submit">Submit</button>
+              </a>
+            </form>
+          </div>
+        </section>
+    </div>
+      
+</body>
+</html>
+
+
